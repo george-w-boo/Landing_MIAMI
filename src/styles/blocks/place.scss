@@ -43,5 +43,10 @@
     font-weight: bold;
     color: $color-blue;
     text-decoration: none;
+    transition: color 0.3s;
+
+    &:hover {
+      color: blueviolet;
+    }
   }
 }
